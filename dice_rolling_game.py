@@ -9,12 +9,10 @@ def dice_rolling_game(choice):
     else:
         print("Invalid choice! Please enter 'y' or 'n'")
 
-while True:
-    user_input = input("Roll the dice? (y/n:) ").lower()
-    dice_rolling_game(user_input)
+def main():
+    while True:
+        user_input = input("Roll the dice? (y/n:) ").lower()
+        dice_rolling_game(user_input)
 
-
-
-
-
-
+if __name__ == '__main__':
+    main()
