@@ -20,3 +20,9 @@ def number_guess():
             print("Please enter a valid number")
 
 number_guess()
+
+def main():
+    number_guess()
+
+if __name__ == "__main__":
+    main()
